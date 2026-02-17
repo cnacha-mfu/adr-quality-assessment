@@ -276,17 +276,7 @@ ruff check src/ tests/ scripts/
 ruff format src/ tests/ scripts/
 ```
 
-## Citation
 
-```bibtex
-@article{adr-quality-assessment-2026,
-  title={Automated Quality Assessment of Architectural Decision Records Using Large Language Models},
-  author={[Authors]},
-  journal={Empirical Software Engineering},
-  year={2026},
-  note={Under review}
-}
-```
 
 ## License
 
