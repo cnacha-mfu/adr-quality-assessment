@@ -1,0 +1,147 @@
+% Paper-Ready LaTeX Tables for ADR Quality Assessment Study
+% Generated from analysis of 109 student-written ADRs (2024-2025)
+% Use with: \usepackage{booktabs, multirow}
+
+% ============================================================
+% TABLE 1: Dataset Characterization
+% ============================================================
+\begin{table}[htbp]
+\caption{Dataset characterization of the ADR corpus.}
+\label{tab:dataset}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Metric} & \textbf{Overall} & \textbf{2024} & \textbf{2025} \\
+ & ($N{=}109$) & ($N{=}66$) & ($N{=}43$) \\
+\midrule
+Word count (mean $\pm$ SD) & $330 \pm 147$ & $331 \pm 162$ & $327 \pm 123$ \\
+Word count (median) & 299 & 294 & 311 \\
+Word count (Q1--Q3) & 237--387 & --- & --- \\
+Word count (min--max) & 118--1{,}232 & --- & --- \\
+Heading count (mean $\pm$ SD) & $4.0 \pm 3.4$ & $6.2 \pm 2.1$ & $0.7 \pm 2.5$ \\
+Has code block (\%) & 10.1 & 16.7 & 0.0 \\
+Uses markdown headings (\%) & 60.6 & 100.0 & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ============================================================
+% TABLE 2: Section Presence Analysis
+% ============================================================
+\begin{table}[htbp]
+\caption{Section presence rates across the ADR corpus. Mandatory MADR sections are marked with *.}
+\label{tab:sections}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Section} & \textbf{Overall} & \textbf{2024} & \textbf{2025} \\
+\midrule
+Context / Problem Statement* & 83.5\% & 92.4\% & 69.8\% \\
+Decision* & 84.4\% & 89.4\% & 76.7\% \\
+Rationale / Justification* & 84.4\% & 90.9\% & 74.4\% \\
+Consequences & 53.2\% & 75.8\% & 18.6\% \\
+Pros (explicit) & 35.8\% & 16.7\% & 65.1\% \\
+Cons (explicit) & 33.9\% & 16.7\% & 60.5\% \\
+Sample Code & 73.4\% & 81.8\% & 60.5\% \\
+\midrule
+Decision Drivers & 0.0\% & 0.0\% & 0.0\% \\
+Considered Options & 0.0\% & 0.0\% & 0.0\% \\
+Confirmation & 0.0\% & 0.0\% & 0.0\% \\
+Links / References & 0.0\% & 0.0\% & 0.0\% \\
+\midrule
+Mandatory present (mean $\pm$ SD) & \multicolumn{3}{c}{$2.52 \pm 0.72$} \\
+Optional present (mean $\pm$ SD) & \multicolumn{3}{c}{$0.84 \pm 0.78$} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ============================================================
+% TABLE 3: Non-LLM Baseline Results
+% ============================================================
+\begin{table}[htbp]
+\caption{Non-LLM baseline predictions. Both baselines produce uniform scores across content and documentation dimensions, demonstrating inability to differentiate quality aspects.}
+\label{tab:baselines}
+\centering
+\begin{tabular}{llrr}
+\toprule
+\textbf{Cat.} & \textbf{Dimension} & \textbf{Section BL} & \textbf{Word BL} \\
+ & & Mean $\pm$ SD & Mean $\pm$ SD \\
+\midrule
+\multirow{2}{*}{Struct.} & A1 Completeness & $2.61 \pm 0.72$ & $3.20 \pm 0.47$ \\
+ & A2 Conformance & $2.06 \pm 0.98$ & $3.20 \pm 0.47$ \\
+\midrule
+\multirow{5}{*}{Content} & B1 Context & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+ & B2 Alternatives & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+ & B3 Rationale & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+ & B4 Consequences & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+ & B5 Decision & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+\midrule
+\multirow{3}{*}{Doc.} & C1 Clarity & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+ & C2 Consistency & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+ & C3 Traceability & $1.75 \pm 0.43$ & $3.20 \pm 0.47$ \\
+\midrule
+\multicolumn{2}{l}{\textbf{Overall composite}} & $\mathbf{1.87 \pm 0.47}$ & $\mathbf{3.20 \pm 0.47}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ============================================================
+% TABLE 4: Quality Tier Distribution
+% ============================================================
+\begin{table}[htbp]
+\caption{Quality tier distribution across non-LLM baselines.}
+\label{tab:tiers}
+\centering
+\begin{tabular}{lrr}
+\toprule
+\textbf{Quality Tier} & \textbf{Section BL} & \textbf{Word BL} \\
+\midrule
+Excellent ($\geq$3.5) & 0 (0.0\%) & 25 (22.9\%) \\
+Good (2.5--3.49) & 0 (0.0\%) & 81 (74.3\%) \\
+Needs Improvement (1.5--2.49) & 82 (75.2\%) & 3 (2.8\%) \\
+Poor ($<$1.5) & 27 (24.8\%) & 0 (0.0\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ============================================================
+% TABLE 5: Cross-Cohort Comparison
+% ============================================================
+\begin{table}[htbp]
+\caption{Cross-cohort comparison (Mann-Whitney $U$ test with Cliff's $\delta$ effect size). Statistical reporting follows APA style per EMSE guidelines.}
+\label{tab:cohort}
+\centering
+\begin{tabular}{lrrrrl}
+\toprule
+\textbf{Metric} & \textbf{2024} & \textbf{2025} & $U$ & $p$ & $\delta$ [95\% CI] \\
+\midrule
+Word count & $331 \pm 162$ & $327 \pm 123$ & 1369 & .759 & $-0.035$ [$-0.26$, $0.20$] \\
+Heading count & $6.2 \pm 2.1$ & $0.7 \pm 2.5$ & 2669 & $<$.001 & $0.880$ [$0.76$, $0.97$] \\
+Section count & $3.6 \pm 0.8$ & $3.0 \pm 1.2$ & 1763 & .005 & $0.242$ [$0.07$, $0.41$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ============================================================
+% TABLE 6: Correlation Matrix
+% ============================================================
+\begin{table}[htbp]
+\caption{Spearman rank correlations between structural features and baseline scores.}
+\label{tab:correlations}
+\centering
+\begin{tabular}{lrl}
+\toprule
+\textbf{Variable Pair} & $\rho$ & $p$ \\
+\midrule
+Word count $\leftrightarrow$ Section count & $-0.096$ & .319 \\
+Section BL $\leftrightarrow$ Word BL & $-0.126$ & .192 \\
+Word count $\leftrightarrow$ Section BL & $-0.133$ & .168 \\
+Word count $\leftrightarrow$ Word BL & $0.760$ & $<$.001 \\
+\bottomrule
+\end{tabular}
+\end{table}

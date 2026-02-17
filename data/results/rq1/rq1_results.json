@@ -1,0 +1,1394 @@
+{
+  "rq": "RQ1: Cross-Model Agreement",
+  "n_models": 4,
+  "models": [
+    "gemini-2.5-flash",
+    "gpt-oss-20b",
+    "llama-4-scout",
+    "nemotron-nano-30b"
+  ],
+  "n_adrs": 109,
+  "agreement": {
+    "n_adrs": 109,
+    "models": [
+      "gemini-2.5-flash",
+      "gpt-oss-20b",
+      "llama-4-scout",
+      "nemotron-nano-30b"
+    ],
+    "per_dimension": {
+      "A1": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.0833,
+            "spearman_rho": 0.1086,
+            "spearman_p": 0.260939,
+            "icc_21": 0.084,
+            "icc_95_ci": [
+              -0.0465,
+              0.2127
+            ],
+            "mae": 0.7248,
+            "exact_agreement": 30.28,
+            "adjacent_agreement": 97.25
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.2143,
+            "spearman_rho": 0.3204,
+            "spearman_p": 0.000681,
+            "icc_21": 0.2158,
+            "icc_95_ci": [
+              -0.0128,
+              0.4416
+            ],
+            "mae": 0.1835,
+            "exact_agreement": 82.57,
+            "adjacent_agreement": 99.08
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.0083,
+            "spearman_rho": 0.0497,
+            "spearman_p": 0.607748,
+            "icc_21": 0.0084,
+            "icc_95_ci": [
+              0.0006,
+              0.0231
+            ],
+            "mae": 0.8716,
+            "exact_agreement": 17.43,
+            "adjacent_agreement": 95.41
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.022,
+            "spearman_rho": 0.1049,
+            "spearman_p": 0.277581,
+            "icc_21": 0.0222,
+            "icc_95_ci": [
+              -0.0068,
+              0.0638
+            ],
+            "mae": 0.7615,
+            "exact_agreement": 26.61,
+            "adjacent_agreement": 97.25
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": -0.0595,
+            "spearman_rho": -0.1039,
+            "spearman_p": 0.282293,
+            "icc_21": -0.06,
+            "icc_95_ci": [
+              -0.1168,
+              -0.0138
+            ],
+            "mae": 0.3119,
+            "exact_agreement": 68.81,
+            "adjacent_agreement": 100.0
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": -0.0,
+            "spearman_rho": 0.0,
+            "spearman_p": 1.0,
+            "icc_21": 0.0,
+            "icc_95_ci": [
+              -0.0029,
+              0.0033
+            ],
+            "mae": 0.9633,
+            "exact_agreement": 5.5,
+            "adjacent_agreement": 98.17
+          }
+        },
+        "krippendorff_alpha": -0.1513
+      },
+      "A2": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.2412,
+            "spearman_rho": 0.2747,
+            "spearman_p": 0.00385,
+            "icc_21": 0.2429,
+            "icc_95_ci": [
+              0.1003,
+              0.3791
+            ],
+            "mae": 0.3119,
+            "exact_agreement": 68.81,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.0662,
+            "spearman_rho": 0.185,
+            "spearman_p": 0.054058,
+            "icc_21": 0.0668,
+            "icc_95_ci": [
+              0.0288,
+              0.121
+            ],
+            "mae": 0.6789,
+            "exact_agreement": 32.11,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.474,
+            "spearman_rho": 0.5422,
+            "spearman_p": 0.0,
+            "icc_21": 0.4763,
+            "icc_95_ci": [
+              0.3211,
+              0.6247
+            ],
+            "mae": 0.2385,
+            "exact_agreement": 76.15,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.0454,
+            "spearman_rho": 0.1742,
+            "spearman_p": 0.069973,
+            "icc_21": 0.0458,
+            "icc_95_ci": [
+              0.0,
+              0.1021
+            ],
+            "mae": 0.8991,
+            "exact_agreement": 18.35,
+            "adjacent_agreement": 91.74
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.2825,
+            "spearman_rho": 0.4072,
+            "spearman_p": 1.1e-05,
+            "icc_21": 0.2844,
+            "icc_95_ci": [
+              0.1844,
+              0.3741
+            ],
+            "mae": 0.4587,
+            "exact_agreement": 54.13,
+            "adjacent_agreement": 100.0
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.1144,
+            "spearman_rho": 0.1998,
+            "spearman_p": 0.037239,
+            "icc_21": 0.1153,
+            "icc_95_ci": [
+              0.0184,
+              0.2288
+            ],
+            "mae": 0.4954,
+            "exact_agreement": 50.46,
+            "adjacent_agreement": 100.0
+          }
+        },
+        "krippendorff_alpha": 0.0642
+      },
+      "B1": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.3015,
+            "spearman_rho": 0.4948,
+            "spearman_p": 0.0,
+            "icc_21": 0.3034,
+            "icc_95_ci": [
+              0.1925,
+              0.4058
+            ],
+            "mae": 0.578,
+            "exact_agreement": 42.2,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.489,
+            "spearman_rho": 0.5023,
+            "spearman_p": 0.0,
+            "icc_21": 0.4913,
+            "icc_95_ci": [
+              0.34,
+              0.6346
+            ],
+            "mae": 0.2936,
+            "exact_agreement": 70.64,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.4783,
+            "spearman_rho": 0.4731,
+            "spearman_p": 0.0,
+            "icc_21": 0.4806,
+            "icc_95_ci": [
+              0.3031,
+              0.6338
+            ],
+            "mae": 0.3303,
+            "exact_agreement": 67.89,
+            "adjacent_agreement": 99.08
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.2177,
+            "spearman_rho": 0.3681,
+            "spearman_p": 8.2e-05,
+            "icc_21": 0.2193,
+            "icc_95_ci": [
+              0.1328,
+              0.2925
+            ],
+            "mae": 0.5413,
+            "exact_agreement": 45.87,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.2539,
+            "spearman_rho": 0.3573,
+            "spearman_p": 0.000137,
+            "icc_21": 0.2556,
+            "icc_95_ci": [
+              0.1176,
+              0.3826
+            ],
+            "mae": 0.4862,
+            "exact_agreement": 53.21,
+            "adjacent_agreement": 98.17
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.5588,
+            "spearman_rho": 0.5803,
+            "spearman_p": 0.0,
+            "icc_21": 0.5611,
+            "icc_95_ci": [
+              0.4134,
+              0.6906
+            ],
+            "mae": 0.2569,
+            "exact_agreement": 74.31,
+            "adjacent_agreement": 100.0
+          }
+        },
+        "krippendorff_alpha": 0.3392
+      },
+      "B2": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.6413,
+            "spearman_rho": 0.6069,
+            "spearman_p": 0.0,
+            "icc_21": 0.6434,
+            "icc_95_ci": [
+              0.1562,
+              0.8534
+            ],
+            "mae": 0.1284,
+            "exact_agreement": 89.91,
+            "adjacent_agreement": 97.25
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.5245,
+            "spearman_rho": 0.473,
+            "spearman_p": 0.0,
+            "icc_21": 0.5268,
+            "icc_95_ci": [
+              0.184,
+              0.7401
+            ],
+            "mae": 0.1835,
+            "exact_agreement": 84.4,
+            "adjacent_agreement": 97.25
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.619,
+            "spearman_rho": 0.6066,
+            "spearman_p": 0.0,
+            "icc_21": 0.6212,
+            "icc_95_ci": [
+              0.1998,
+              0.8295
+            ],
+            "mae": 0.1468,
+            "exact_agreement": 88.99,
+            "adjacent_agreement": 96.33
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.7509,
+            "spearman_rho": 0.642,
+            "spearman_p": 0.0,
+            "icc_21": 0.7526,
+            "icc_95_ci": [
+              0.3663,
+              0.8672
+            ],
+            "mae": 0.1101,
+            "exact_agreement": 88.99,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.9639,
+            "spearman_rho": 0.9999,
+            "spearman_p": 0.0,
+            "icc_21": 0.9642,
+            "icc_95_ci": [
+              0.8626,
+              1.0
+            ],
+            "mae": 0.0183,
+            "exact_agreement": 98.17,
+            "adjacent_agreement": 100.0
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.7837,
+            "spearman_rho": 0.6423,
+            "spearman_p": 0.0,
+            "icc_21": 0.7852,
+            "icc_95_ci": [
+              0.441,
+              0.8821
+            ],
+            "mae": 0.1101,
+            "exact_agreement": 88.99,
+            "adjacent_agreement": 100.0
+          }
+        },
+        "krippendorff_alpha": 0.7113
+      },
+      "B3": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.0601,
+            "spearman_rho": 0.1716,
+            "spearman_p": 0.074399,
+            "icc_21": 0.0607,
+            "icc_95_ci": [
+              0.0264,
+              0.1089
+            ],
+            "mae": 0.7156,
+            "exact_agreement": 28.44,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.3403,
+            "spearman_rho": 0.3161,
+            "spearman_p": 0.000812,
+            "icc_21": 0.3424,
+            "icc_95_ci": [
+              0.0562,
+              0.558
+            ],
+            "mae": 0.156,
+            "exact_agreement": 84.4,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.3556,
+            "spearman_rho": 0.3856,
+            "spearman_p": 3.5e-05,
+            "icc_21": 0.3577,
+            "icc_95_ci": [
+              0.1628,
+              0.537
+            ],
+            "mae": 0.2477,
+            "exact_agreement": 75.23,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": -0.0067,
+            "spearman_rho": -0.0239,
+            "spearman_p": 0.805358,
+            "icc_21": -0.0068,
+            "icc_95_ci": [
+              -0.0735,
+              0.0427
+            ],
+            "mae": 0.7798,
+            "exact_agreement": 22.02,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.1606,
+            "spearman_rho": 0.3044,
+            "spearman_p": 0.001291,
+            "icc_21": 0.1618,
+            "icc_95_ci": [
+              0.0847,
+              0.261
+            ],
+            "mae": 0.5596,
+            "exact_agreement": 44.04,
+            "adjacent_agreement": 100.0
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.1522,
+            "spearman_rho": 0.1863,
+            "spearman_p": 0.052362,
+            "icc_21": 0.1534,
+            "icc_95_ci": [
+              -0.0155,
+              0.3233
+            ],
+            "mae": 0.2936,
+            "exact_agreement": 70.64,
+            "adjacent_agreement": 100.0
+          }
+        },
+        "krippendorff_alpha": 0.0256
+      },
+      "B4": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.3383,
+            "spearman_rho": 0.3538,
+            "spearman_p": 0.00016,
+            "icc_21": 0.3404,
+            "icc_95_ci": [
+              0.1733,
+              0.4913
+            ],
+            "mae": 0.3486,
+            "exact_agreement": 65.14,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.1631,
+            "spearman_rho": 0.2507,
+            "spearman_p": 0.008549,
+            "icc_21": 0.1644,
+            "icc_95_ci": [
+              0.0507,
+              0.2907
+            ],
+            "mae": 0.4128,
+            "exact_agreement": 58.72,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.4316,
+            "spearman_rho": 0.445,
+            "spearman_p": 1e-06,
+            "icc_21": 0.4339,
+            "icc_95_ci": [
+              0.253,
+              0.5956
+            ],
+            "mae": 0.3119,
+            "exact_agreement": 68.81,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.0427,
+            "spearman_rho": 0.0854,
+            "spearman_p": 0.377488,
+            "icc_21": 0.043,
+            "icc_95_ci": [
+              -0.049,
+              0.1288
+            ],
+            "mae": 0.578,
+            "exact_agreement": 42.2,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.4123,
+            "spearman_rho": 0.4131,
+            "spearman_p": 8e-06,
+            "icc_21": 0.4145,
+            "icc_95_ci": [
+              0.2397,
+              0.5758
+            ],
+            "mae": 0.2752,
+            "exact_agreement": 72.48,
+            "adjacent_agreement": 100.0
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.1033,
+            "spearman_rho": 0.2313,
+            "spearman_p": 0.015514,
+            "icc_21": 0.1041,
+            "icc_95_ci": [
+              0.0465,
+              0.1754
+            ],
+            "mae": 0.5963,
+            "exact_agreement": 40.37,
+            "adjacent_agreement": 100.0
+          }
+        },
+        "krippendorff_alpha": 0.1887
+      },
+      "B5": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.8014,
+            "spearman_rho": 0.7512,
+            "spearman_p": 0.0,
+            "icc_21": 0.8028,
+            "icc_95_ci": [
+              0.6535,
+              0.9028
+            ],
+            "mae": 0.1284,
+            "exact_agreement": 87.16,
+            "adjacent_agreement": 100.0
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.4934,
+            "spearman_rho": 0.4642,
+            "spearman_p": 0.0,
+            "icc_21": 0.4957,
+            "icc_95_ci": [
+              0.2323,
+              0.7024
+            ],
+            "mae": 0.211,
+            "exact_agreement": 80.73,
+            "adjacent_agreement": 98.17
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.7834,
+            "spearman_rho": 0.7673,
+            "spearman_p": 0.0,
+            "icc_21": 0.785,
+            "icc_95_ci": [
+              0.6023,
+              0.9119
+            ],
+            "mae": 0.1101,
+            "exact_agreement": 89.91,
+            "adjacent_agreement": 99.08
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.488,
+            "spearman_rho": 0.5382,
+            "spearman_p": 0.0,
+            "icc_21": 0.4903,
+            "icc_95_ci": [
+              0.2611,
+              0.6944
+            ],
+            "mae": 0.2294,
+            "exact_agreement": 79.82,
+            "adjacent_agreement": 97.25
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.771,
+            "spearman_rho": 0.7513,
+            "spearman_p": 0.0,
+            "icc_21": 0.7726,
+            "icc_95_ci": [
+              0.6297,
+              0.8706
+            ],
+            "mae": 0.1468,
+            "exact_agreement": 85.32,
+            "adjacent_agreement": 100.0
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.6721,
+            "spearman_rho": 0.6673,
+            "spearman_p": 0.0,
+            "icc_21": 0.6741,
+            "icc_95_ci": [
+              0.4397,
+              0.8372
+            ],
+            "mae": 0.1376,
+            "exact_agreement": 87.16,
+            "adjacent_agreement": 99.08
+          }
+        },
+        "krippendorff_alpha": 0.6776
+      },
+      "C1": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.5158,
+            "spearman_rho": 0.5312,
+            "spearman_p": 0.0,
+            "icc_21": 0.5181,
+            "icc_95_ci": [
+              0.3711,
+              0.6343
+            ],
+            "mae": 0.4862,
+            "exact_agreement": 53.21,
+            "adjacent_agreement": 98.17
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.174,
+            "spearman_rho": 0.3057,
+            "spearman_p": 0.001227,
+            "icc_21": 0.1753,
+            "icc_95_ci": [
+              0.0632,
+              0.2887
+            ],
+            "mae": 0.6514,
+            "exact_agreement": 36.7,
+            "adjacent_agreement": 98.17
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.5157,
+            "spearman_rho": 0.5191,
+            "spearman_p": 0.0,
+            "icc_21": 0.518,
+            "icc_95_ci": [
+              0.3907,
+              0.6265
+            ],
+            "mae": 0.5138,
+            "exact_agreement": 50.46,
+            "adjacent_agreement": 98.17
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.0954,
+            "spearman_rho": 0.1291,
+            "spearman_p": 0.180787,
+            "icc_21": 0.0962,
+            "icc_95_ci": [
+              0.0,
+              0.2067
+            ],
+            "mae": 0.4037,
+            "exact_agreement": 59.63,
+            "adjacent_agreement": 100.0
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.4505,
+            "spearman_rho": 0.4462,
+            "spearman_p": 1e-06,
+            "icc_21": 0.4528,
+            "icc_95_ci": [
+              0.2913,
+              0.5879
+            ],
+            "mae": 0.4128,
+            "exact_agreement": 59.63,
+            "adjacent_agreement": 99.08
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.1703,
+            "spearman_rho": 0.2475,
+            "spearman_p": 0.009456,
+            "icc_21": 0.1716,
+            "icc_95_ci": [
+              0.0442,
+              0.2924
+            ],
+            "mae": 0.4495,
+            "exact_agreement": 55.05,
+            "adjacent_agreement": 100.0
+          }
+        },
+        "krippendorff_alpha": 0.3662
+      },
+      "C2": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.5016,
+            "spearman_rho": 0.4401,
+            "spearman_p": 2e-06,
+            "icc_21": 0.5039,
+            "icc_95_ci": [
+              0.3168,
+              0.6452
+            ],
+            "mae": 0.5872,
+            "exact_agreement": 47.71,
+            "adjacent_agreement": 93.58
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.4272,
+            "spearman_rho": 0.4932,
+            "spearman_p": 0.0,
+            "icc_21": 0.4295,
+            "icc_95_ci": [
+              0.2754,
+              0.5716
+            ],
+            "mae": 0.4862,
+            "exact_agreement": 58.72,
+            "adjacent_agreement": 93.58
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.2792,
+            "spearman_rho": 0.2095,
+            "spearman_p": 0.028758,
+            "icc_21": 0.281,
+            "icc_95_ci": [
+              0.071,
+              0.4613
+            ],
+            "mae": 0.6606,
+            "exact_agreement": 38.53,
+            "adjacent_agreement": 96.33
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.2567,
+            "spearman_rho": 0.3062,
+            "spearman_p": 0.001202,
+            "icc_21": 0.2585,
+            "icc_95_ci": [
+              0.1066,
+              0.412
+            ],
+            "mae": 0.6514,
+            "exact_agreement": 44.04,
+            "adjacent_agreement": 92.66
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.3644,
+            "spearman_rho": 0.3419,
+            "spearman_p": 0.000274,
+            "icc_21": 0.3665,
+            "icc_95_ci": [
+              0.1526,
+              0.5461
+            ],
+            "mae": 0.4954,
+            "exact_agreement": 55.05,
+            "adjacent_agreement": 96.33
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.3682,
+            "spearman_rho": 0.421,
+            "spearman_p": 5e-06,
+            "icc_21": 0.3703,
+            "icc_95_ci": [
+              0.2218,
+              0.5054
+            ],
+            "mae": 0.4312,
+            "exact_agreement": 57.8,
+            "adjacent_agreement": 99.08
+          }
+        },
+        "krippendorff_alpha": 0.3597
+      },
+      "C3": {
+        "pairs": {
+          "gemini-2.5-flash_vs_gpt-oss-20b": {
+            "qwk": 0.2139,
+            "spearman_rho": 0.2221,
+            "spearman_p": 0.020283,
+            "icc_21": 0.2155,
+            "icc_95_ci": [
+              -0.0352,
+              0.448
+            ],
+            "mae": 0.2018,
+            "exact_agreement": 80.73,
+            "adjacent_agreement": 99.08
+          },
+          "gemini-2.5-flash_vs_llama-4-scout": {
+            "qwk": 0.1351,
+            "spearman_rho": 0.1507,
+            "spearman_p": 0.117764,
+            "icc_21": 0.1361,
+            "icc_95_ci": [
+              -0.0078,
+              0.2857
+            ],
+            "mae": 0.4495,
+            "exact_agreement": 55.96,
+            "adjacent_agreement": 99.08
+          },
+          "gemini-2.5-flash_vs_nemotron-nano-30b": {
+            "qwk": 0.4047,
+            "spearman_rho": 0.383,
+            "spearman_p": 4e-05,
+            "icc_21": 0.4069,
+            "icc_95_ci": [
+              0.0619,
+              0.6942
+            ],
+            "mae": 0.156,
+            "exact_agreement": 85.32,
+            "adjacent_agreement": 99.08
+          },
+          "gpt-oss-20b_vs_llama-4-scout": {
+            "qwk": 0.026,
+            "spearman_rho": 0.0494,
+            "spearman_p": 0.609618,
+            "icc_21": 0.0262,
+            "icc_95_ci": [
+              -0.08,
+              0.1402
+            ],
+            "mae": 0.4679,
+            "exact_agreement": 54.13,
+            "adjacent_agreement": 99.08
+          },
+          "gpt-oss-20b_vs_nemotron-nano-30b": {
+            "qwk": 0.4909,
+            "spearman_rho": 0.4689,
+            "spearman_p": 0.0,
+            "icc_21": 0.4932,
+            "icc_95_ci": [
+              0.0941,
+              0.7204
+            ],
+            "mae": 0.0826,
+            "exact_agreement": 91.74,
+            "adjacent_agreement": 100.0
+          },
+          "llama-4-scout_vs_nemotron-nano-30b": {
+            "qwk": 0.042,
+            "spearman_rho": 0.0534,
+            "spearman_p": 0.58111,
+            "icc_21": 0.0424,
+            "icc_95_ci": [
+              -0.0634,
+              0.155
+            ],
+            "mae": 0.4771,
+            "exact_agreement": 53.21,
+            "adjacent_agreement": 99.08
+          }
+        },
+        "krippendorff_alpha": 0.1207
+      }
+    },
+    "overall": {
+      "gemini-2.5-flash_vs_gpt-oss-20b": {
+        "qwk": 0.0233,
+        "spearman_rho": 0.1085,
+        "icc_21": 0.0235,
+        "mae": 0.4312,
+        "exact_agreement": 56.88,
+        "adjacent_agreement": 100.0
+      },
+      "gemini-2.5-flash_vs_llama-4-scout": {
+        "qwk": 0.3854,
+        "spearman_rho": 0.4377,
+        "icc_21": 0.3876,
+        "mae": 0.3211,
+        "exact_agreement": 67.89,
+        "adjacent_agreement": 100.0
+      },
+      "gemini-2.5-flash_vs_nemotron-nano-30b": {
+        "qwk": 0.2533,
+        "spearman_rho": 0.3578,
+        "icc_21": 0.255,
+        "mae": 0.3394,
+        "exact_agreement": 66.06,
+        "adjacent_agreement": 100.0
+      },
+      "gpt-oss-20b_vs_llama-4-scout": {
+        "qwk": 0.0084,
+        "spearman_rho": 0.0648,
+        "icc_21": 0.0084,
+        "mae": 0.6789,
+        "exact_agreement": 32.11,
+        "adjacent_agreement": 100.0
+      },
+      "gpt-oss-20b_vs_nemotron-nano-30b": {
+        "qwk": 0.128,
+        "spearman_rho": 0.2615,
+        "icc_21": 0.129,
+        "mae": 0.1101,
+        "exact_agreement": 88.99,
+        "adjacent_agreement": 100.0
+      },
+      "llama-4-scout_vs_nemotron-nano-30b": {
+        "qwk": 0.0871,
+        "spearman_rho": 0.1867,
+        "icc_21": 0.0879,
+        "mae": 0.5872,
+        "exact_agreement": 41.28,
+        "adjacent_agreement": 100.0
+      }
+    }
+  },
+  "distributions": {
+    "gemini-2.5-flash": {
+      "A1": {
+        "mean": 2.89,
+        "std": 0.456,
+        "median": 3.0,
+        "score_counts": {
+          "1": 1,
+          "2": 15,
+          "3": 88,
+          "4": 5
+        }
+      },
+      "A2": {
+        "mean": 2.202,
+        "std": 0.401,
+        "median": 2.0,
+        "score_counts": {
+          "1": 0,
+          "2": 87,
+          "3": 22,
+          "4": 0
+        }
+      },
+      "B1": {
+        "mean": 2.514,
+        "std": 0.569,
+        "median": 3.0,
+        "score_counts": {
+          "1": 3,
+          "2": 48,
+          "3": 57,
+          "4": 1
+        }
+      },
+      "B2": {
+        "mean": 1.193,
+        "std": 0.533,
+        "median": 1.0,
+        "score_counts": {
+          "1": 94,
+          "2": 10,
+          "3": 4,
+          "4": 1
+        }
+      },
+      "B3": {
+        "mean": 2.853,
+        "std": 0.379,
+        "median": 3.0,
+        "score_counts": {
+          "1": 1,
+          "2": 14,
+          "3": 94,
+          "4": 0
+        }
+      },
+      "B4": {
+        "mean": 2.532,
+        "std": 0.517,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 52,
+          "3": 56,
+          "4": 1
+        }
+      },
+      "B5": {
+        "mean": 2.743,
+        "std": 0.549,
+        "median": 3.0,
+        "score_counts": {
+          "1": 5,
+          "2": 19,
+          "3": 84,
+          "4": 1
+        }
+      },
+      "C1": {
+        "mean": 3.128,
+        "std": 0.847,
+        "median": 3.0,
+        "score_counts": {
+          "1": 2,
+          "2": 27,
+          "3": 35,
+          "4": 45
+        }
+      },
+      "C2": {
+        "mean": 3.312,
+        "std": 0.875,
+        "median": 4.0,
+        "score_counts": {
+          "1": 6,
+          "2": 12,
+          "3": 33,
+          "4": 58
+        }
+      },
+      "C3": {
+        "mean": 1.193,
+        "std": 0.438,
+        "median": 1.0,
+        "score_counts": {
+          "1": 90,
+          "2": 17,
+          "3": 2,
+          "4": 0
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "A1": {
+        "mean": 2.239,
+        "std": 0.467,
+        "median": 2.0,
+        "score_counts": {
+          "1": 2,
+          "2": 79,
+          "3": 28,
+          "4": 0
+        }
+      },
+      "A2": {
+        "mean": 1.982,
+        "std": 0.449,
+        "median": 2.0,
+        "score_counts": {
+          "1": 12,
+          "2": 87,
+          "3": 10,
+          "4": 0
+        }
+      },
+      "B1": {
+        "mean": 1.936,
+        "std": 0.413,
+        "median": 2.0,
+        "score_counts": {
+          "1": 13,
+          "2": 90,
+          "3": 6,
+          "4": 0
+        }
+      },
+      "B2": {
+        "mean": 1.101,
+        "std": 0.468,
+        "median": 1.0,
+        "score_counts": {
+          "1": 103,
+          "2": 3,
+          "3": 1,
+          "4": 2
+        }
+      },
+      "B3": {
+        "mean": 2.156,
+        "std": 0.363,
+        "median": 2.0,
+        "score_counts": {
+          "1": 0,
+          "2": 92,
+          "3": 17,
+          "4": 0
+        }
+      },
+      "B4": {
+        "mean": 2.367,
+        "std": 0.482,
+        "median": 2.0,
+        "score_counts": {
+          "1": 0,
+          "2": 69,
+          "3": 40,
+          "4": 0
+        }
+      },
+      "B5": {
+        "mean": 2.651,
+        "std": 0.581,
+        "median": 3.0,
+        "score_counts": {
+          "1": 6,
+          "2": 26,
+          "3": 77,
+          "4": 0
+        }
+      },
+      "C1": {
+        "mean": 3.046,
+        "std": 0.596,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 17,
+          "3": 70,
+          "4": 22
+        }
+      },
+      "C2": {
+        "mean": 3.11,
+        "std": 0.794,
+        "median": 3.0,
+        "score_counts": {
+          "1": 6,
+          "2": 11,
+          "3": 57,
+          "4": 35
+        }
+      },
+      "C3": {
+        "mean": 1.083,
+        "std": 0.275,
+        "median": 1.0,
+        "score_counts": {
+          "1": 100,
+          "2": 9,
+          "3": 0,
+          "4": 0
+        }
+      }
+    },
+    "llama-4-scout": {
+      "A1": {
+        "mean": 3.0,
+        "std": 0.192,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 2,
+          "3": 105,
+          "4": 2
+        }
+      },
+      "A2": {
+        "mean": 2.881,
+        "std": 0.324,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 13,
+          "3": 96,
+          "4": 0
+        }
+      },
+      "B1": {
+        "mean": 2.459,
+        "std": 0.498,
+        "median": 2.0,
+        "score_counts": {
+          "1": 0,
+          "2": 59,
+          "3": 50,
+          "4": 0
+        }
+      },
+      "B2": {
+        "mean": 1.174,
+        "std": 0.466,
+        "median": 1.0,
+        "score_counts": {
+          "1": 94,
+          "2": 11,
+          "3": 4,
+          "4": 0
+        }
+      },
+      "B3": {
+        "mean": 2.899,
+        "std": 0.301,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 11,
+          "3": 98,
+          "4": 0
+        }
+      },
+      "B4": {
+        "mean": 2.89,
+        "std": 0.313,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 12,
+          "3": 97,
+          "4": 0
+        }
+      },
+      "B5": {
+        "mean": 2.862,
+        "std": 0.417,
+        "median": 3.0,
+        "score_counts": {
+          "1": 2,
+          "2": 12,
+          "3": 94,
+          "4": 1
+        }
+      },
+      "C1": {
+        "mean": 2.936,
+        "std": 0.28,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 8,
+          "3": 100,
+          "4": 1
+        }
+      },
+      "C2": {
+        "mean": 3.633,
+        "std": 0.519,
+        "median": 4.0,
+        "score_counts": {
+          "1": 0,
+          "2": 2,
+          "3": 36,
+          "4": 71
+        }
+      },
+      "C3": {
+        "mean": 1.477,
+        "std": 0.518,
+        "median": 1.0,
+        "score_counts": {
+          "1": 58,
+          "2": 50,
+          "3": 1,
+          "4": 0
+        }
+      }
+    },
+    "nemotron-nano-30b": {
+      "A1": {
+        "mean": 2.037,
+        "std": 0.188,
+        "median": 2.0,
+        "score_counts": {
+          "1": 0,
+          "2": 105,
+          "3": 4,
+          "4": 0
+        }
+      },
+      "A2": {
+        "mean": 2.422,
+        "std": 0.494,
+        "median": 2.0,
+        "score_counts": {
+          "1": 0,
+          "2": 63,
+          "3": 46,
+          "4": 0
+        }
+      },
+      "B1": {
+        "mean": 2.385,
+        "std": 0.573,
+        "median": 2.0,
+        "score_counts": {
+          "1": 5,
+          "2": 57,
+          "3": 47,
+          "4": 0
+        }
+      },
+      "B2": {
+        "mean": 1.119,
+        "std": 0.537,
+        "median": 1.0,
+        "score_counts": {
+          "1": 103,
+          "2": 2,
+          "3": 1,
+          "4": 3
+        }
+      },
+      "B3": {
+        "mean": 2.716,
+        "std": 0.471,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 32,
+          "3": 76,
+          "4": 1
+        }
+      },
+      "B4": {
+        "mean": 2.312,
+        "std": 0.483,
+        "median": 2.0,
+        "score_counts": {
+          "1": 0,
+          "2": 76,
+          "3": 32,
+          "4": 1
+        }
+      },
+      "B5": {
+        "mean": 2.761,
+        "std": 0.54,
+        "median": 3.0,
+        "score_counts": {
+          "1": 5,
+          "2": 17,
+          "3": 86,
+          "4": 1
+        }
+      },
+      "C1": {
+        "mean": 3.147,
+        "std": 0.647,
+        "median": 3.0,
+        "score_counts": {
+          "1": 0,
+          "2": 16,
+          "3": 61,
+          "4": 32
+        }
+      },
+      "C2": {
+        "mean": 3.257,
+        "std": 0.549,
+        "median": 3.0,
+        "score_counts": {
+          "1": 1,
+          "2": 3,
+          "3": 72,
+          "4": 33
+        }
+      },
+      "C3": {
+        "mean": 1.073,
+        "std": 0.294,
+        "median": 1.0,
+        "score_counts": {
+          "1": 102,
+          "2": 6,
+          "3": 1,
+          "4": 0
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "A1": {
+      "friedman_chi2": 225.3872,
+      "friedman_p": 0.0
+    },
+    "A2": {
+      "friedman_chi2": 179.6512,
+      "friedman_p": 0.0
+    },
+    "B1": {
+      "friedman_chi2": 109.1088,
+      "friedman_p": 0.0
+    },
+    "B2": {
+      "friedman_chi2": 8.6794,
+      "friedman_p": 0.033872
+    },
+    "B3": {
+      "friedman_chi2": 167.08,
+      "friedman_p": 0.0
+    },
+    "B4": {
+      "friedman_chi2": 105.5455,
+      "friedman_p": 0.0
+    },
+    "B5": {
+      "friedman_chi2": 27.0933,
+      "friedman_p": 6e-06
+    },
+    "C1": {
+      "friedman_chi2": 13.0534,
+      "friedman_p": 0.004523
+    },
+    "C2": {
+      "friedman_chi2": 49.1256,
+      "friedman_p": 0.0
+    },
+    "C3": {
+      "friedman_chi2": 73.7044,
+      "friedman_p": 0.0
+    }
+  }
+}

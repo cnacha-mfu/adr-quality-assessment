@@ -1,0 +1,36 @@
+{
+  "per_model": {
+    "gemini-2.5-flash": {
+      "per_perturbation_type": {
+        "remove_context": {
+          "n_entries": 90,
+          "perturbation_description": "Removed context/problem statement section entirely",
+          "expected_impacts": {
+            "A1": "decrease",
+            "B1": "decrease",
+            "B2": "unchanged",
+            "B3": "unchanged",
+            "B4": "unchanged",
+            "B5": "unchanged",
+            "C1": "unchanged",
+            "C2": "unchanged",
+            "C3": "unchanged",
+            "A2": "unchanged"
+          },
+          "dimension_results": {
+            "A1": {
+              "n": 90,
+              "expected_impact": "decrease",
+              "original_mean": 2.911,
+              "perturbed_mean": 2.133,
+              "mean_difference": 0.778,
+              "wilcoxon_w": 27.5,
+              "p_value": 0.0,
+              "cliffs_delta": 0.6326,
+              "cliffs_delta_ci": [
+                0.5114,
+                0.7473
+              ],
+              "cliffs_interpretation": "large",
+              "detection_rate": 0.689,
+              "significant": 

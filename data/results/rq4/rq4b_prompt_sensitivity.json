@@ -1,0 +1,740 @@
+{
+  "per_model": {
+    "gemini-2.5-flash": {
+      "per_dimension": {
+        "A1": {
+          "dimension_id": "A1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.375,
+          "friedman_p": 0.829029,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.186,
+          "adr_variance": 0.1533,
+          "prompt_variance": 0.0326,
+          "variance_explained_by_prompt": 17.54,
+          "is_sensitive": false
+        },
+        "A2": {
+          "dimension_id": "A2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 1.0769,
+          "friedman_p": 0.583645,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.1479,
+          "adr_variance": 0.1214,
+          "prompt_variance": 0.0265,
+          "variance_explained_by_prompt": 17.92,
+          "is_sensitive": false
+        },
+        "B1": {
+          "dimension_id": "B1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.1111,
+          "friedman_p": 0.347999,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.3099,
+          "adr_variance": 0.2732,
+          "prompt_variance": 0.0367,
+          "variance_explained_by_prompt": 11.84,
+          "is_sensitive": false
+        },
+        "B2": {
+          "dimension_id": "B2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.25,
+          "friedman_p": 0.324652,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.3133,
+          "adr_variance": 0.297,
+          "prompt_variance": 0.0163,
+          "variance_explained_by_prompt": 5.21,
+          "is_sensitive": false
+        },
+        "B3": {
+          "dimension_id": "B3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 3.5,
+          "friedman_p": 0.173774,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.144,
+          "adr_variance": 0.1195,
+          "prompt_variance": 0.0245,
+          "variance_explained_by_prompt": 16.99,
+          "is_sensitive": false
+        },
+        "B4": {
+          "dimension_id": "B4",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.1538,
+          "friedman_p": 0.925961,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2677,
+          "adr_variance": 0.2412,
+          "prompt_variance": 0.0265,
+          "variance_explained_by_prompt": 9.9,
+          "is_sensitive": false
+        },
+        "B5": {
+          "dimension_id": "B5",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.25,
+          "friedman_p": 0.324652,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2964,
+          "adr_variance": 0.2801,
+          "prompt_variance": 0.0163,
+          "variance_explained_by_prompt": 5.5,
+          "is_sensitive": false
+        },
+        "C1": {
+          "dimension_id": "C1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.96,
+          "friedman_p": 0.227638,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.7251,
+          "adr_variance": 0.6741,
+          "prompt_variance": 0.051,
+          "variance_explained_by_prompt": 7.03,
+          "is_sensitive": false
+        },
+        "C2": {
+          "dimension_id": "C2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 5.8261,
+          "friedman_p": 0.05431,
+          "pct_divergent_gt1": 2.75,
+          "total_variance": 0.7488,
+          "adr_variance": 0.6835,
+          "prompt_variance": 0.0652,
+          "variance_explained_by_prompt": 8.71,
+          "is_sensitive": false
+        },
+        "C3": {
+          "dimension_id": "C3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.5333,
+          "friedman_p": 0.765928,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.1664,
+          "adr_variance": 0.1358,
+          "prompt_variance": 0.0306,
+          "variance_explained_by_prompt": 18.38,
+          "is_sensitive": false
+        }
+      }
+    },
+    "gpt-oss-20b": {
+      "per_dimension": {
+        "A1": {
+          "dimension_id": "A1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.7368,
+          "friedman_p": 0.691826,
+          "pct_divergent_gt1": 0.92,
+          "total_variance": 0.223,
+          "adr_variance": 0.1006,
+          "prompt_variance": 0.1223,
+          "variance_explained_by_prompt": 54.87,
+          "is_sensitive": false
+        },
+        "A2": {
+          "dimension_id": "A2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.0465,
+          "friedman_p": 0.977013,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2567,
+          "adr_variance": 0.1691,
+          "prompt_variance": 0.0877,
+          "variance_explained_by_prompt": 34.15,
+          "is_sensitive": false
+        },
+        "B1": {
+          "dimension_id": "B1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.8182,
+          "friedman_p": 0.664254,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.1661,
+          "adr_variance": 0.1212,
+          "prompt_variance": 0.0449,
+          "variance_explained_by_prompt": 27.0,
+          "is_sensitive": false
+        },
+        "B2": {
+          "dimension_id": "B2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.6667,
+          "friedman_p": 0.716531,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.144,
+          "adr_variance": 0.1379,
+          "prompt_variance": 0.0061,
+          "variance_explained_by_prompt": 4.25,
+          "is_sensitive": false
+        },
+        "B3": {
+          "dimension_id": "B3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 4.4286,
+          "friedman_p": 0.109232,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.1419,
+          "adr_variance": 0.1134,
+          "prompt_variance": 0.0285,
+          "variance_explained_by_prompt": 20.11,
+          "is_sensitive": false
+        },
+        "B4": {
+          "dimension_id": "B4",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.3415,
+          "friedman_p": 0.843048,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2411,
+          "adr_variance": 0.1575,
+          "prompt_variance": 0.0836,
+          "variance_explained_by_prompt": 34.66,
+          "is_sensitive": false
+        },
+        "B5": {
+          "dimension_id": "B5",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.875,
+          "friedman_p": 0.645649,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.3302,
+          "adr_variance": 0.2976,
+          "prompt_variance": 0.0326,
+          "variance_explained_by_prompt": 9.88,
+          "is_sensitive": false
+        },
+        "C1": {
+          "dimension_id": "C1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.0571,
+          "friedman_p": 0.971833,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.33,
+          "adr_variance": 0.2586,
+          "prompt_variance": 0.0714,
+          "variance_explained_by_prompt": 21.63,
+          "is_sensitive": false
+        },
+        "C2": {
+          "dimension_id": "C2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 5.3455,
+          "friedman_p": 0.069064,
+          "pct_divergent_gt1": 0.92,
+          "total_variance": 0.6557,
+          "adr_variance": 0.5374,
+          "prompt_variance": 0.1182,
+          "variance_explained_by_prompt": 18.03,
+          "is_sensitive": false
+        },
+        "C3": {
+          "dimension_id": "C3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.0,
+          "friedman_p": 0.367879,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.0547,
+          "adr_variance": 0.0405,
+          "prompt_variance": 0.0143,
+          "variance_explained_by_prompt": 26.08,
+          "is_sensitive": false
+        }
+      }
+    },
+    "llama-4-scout": {
+      "per_dimension": {
+        "A1": {
+          "dimension_id": "A1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": NaN,
+          "friedman_p": NaN,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.0274,
+          "adr_variance": 0.0274,
+          "prompt_variance": 0.0,
+          "variance_explained_by_prompt": 0.0,
+          "is_sensitive": false
+        },
+        "A2": {
+          "dimension_id": "A2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": NaN,
+          "friedman_p": NaN,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.098,
+          "adr_variance": 0.098,
+          "prompt_variance": -0.0,
+          "variance_explained_by_prompt": -0.0,
+          "is_sensitive": false
+        },
+        "B1": {
+          "dimension_id": "B1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.0,
+          "friedman_p": 0.367879,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2488,
+          "adr_variance": 0.2467,
+          "prompt_variance": 0.002,
+          "variance_explained_by_prompt": 0.82,
+          "is_sensitive": false
+        },
+        "B2": {
+          "dimension_id": "B2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": NaN,
+          "friedman_p": NaN,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2173,
+          "adr_variance": 0.2173,
+          "prompt_variance": 0.0,
+          "variance_explained_by_prompt": 0.0,
+          "is_sensitive": false
+        },
+        "B3": {
+          "dimension_id": "B3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": NaN,
+          "friedman_p": NaN,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.0907,
+          "adr_variance": 0.0907,
+          "prompt_variance": -0.0,
+          "variance_explained_by_prompt": -0.0,
+          "is_sensitive": false
+        },
+        "B4": {
+          "dimension_id": "B4",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": NaN,
+          "friedman_p": NaN,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.0907,
+          "adr_variance": 0.0907,
+          "prompt_variance": 0.0,
+          "variance_explained_by_prompt": 0.0,
+          "is_sensitive": false
+        },
+        "B5": {
+          "dimension_id": "B5",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": NaN,
+          "friedman_p": NaN,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.1803,
+          "adr_variance": 0.1803,
+          "prompt_variance": 0.0,
+          "variance_explained_by_prompt": 0.0,
+          "is_sensitive": false
+        },
+        "C1": {
+          "dimension_id": "C1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.0,
+          "friedman_p": 0.367879,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.0811,
+          "adr_variance": 0.0791,
+          "prompt_variance": 0.002,
+          "variance_explained_by_prompt": 2.51,
+          "is_sensitive": false
+        },
+        "C2": {
+          "dimension_id": "C2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.0,
+          "friedman_p": 1.0,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.269,
+          "adr_variance": 0.2649,
+          "prompt_variance": 0.0041,
+          "variance_explained_by_prompt": 1.52,
+          "is_sensitive": false
+        },
+        "C3": {
+          "dimension_id": "C3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 3.0,
+          "friedman_p": 0.22313,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2683,
+          "adr_variance": 0.2643,
+          "prompt_variance": 0.0041,
+          "variance_explained_by_prompt": 1.52,
+          "is_sensitive": false
+        }
+      }
+    },
+    "nemotron-nano-30b": {
+      "per_dimension": {
+        "A1": {
+          "dimension_id": "A1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.25,
+          "friedman_p": 0.882497,
+          "pct_divergent_gt1": 0.92,
+          "total_variance": 0.0329,
+          "adr_variance": 0.0105,
+          "prompt_variance": 0.0224,
+          "variance_explained_by_prompt": 68.2,
+          "is_sensitive": false
+        },
+        "A2": {
+          "dimension_id": "A2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.4727,
+          "friedman_p": 0.789494,
+          "pct_divergent_gt1": 0.92,
+          "total_variance": 0.2469,
+          "adr_variance": 0.2061,
+          "prompt_variance": 0.0408,
+          "variance_explained_by_prompt": 16.52,
+          "is_sensitive": false
+        },
+        "B1": {
+          "dimension_id": "B1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.0,
+          "friedman_p": 1.0,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.3386,
+          "adr_variance": 0.2958,
+          "prompt_variance": 0.0428,
+          "variance_explained_by_prompt": 12.65,
+          "is_sensitive": false
+        },
+        "B2": {
+          "dimension_id": "B2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 4.0,
+          "friedman_p": 0.135335,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2931,
+          "adr_variance": 0.2891,
+          "prompt_variance": 0.0041,
+          "variance_explained_by_prompt": 1.39,
+          "is_sensitive": false
+        },
+        "B3": {
+          "dimension_id": "B3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.2963,
+          "friedman_p": 0.862303,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2313,
+          "adr_variance": 0.1763,
+          "prompt_variance": 0.055,
+          "variance_explained_by_prompt": 23.8,
+          "is_sensitive": false
+        },
+        "B4": {
+          "dimension_id": "B4",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 1.1429,
+          "friedman_p": 0.564718,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.2158,
+          "adr_variance": 0.1587,
+          "prompt_variance": 0.0571,
+          "variance_explained_by_prompt": 26.46,
+          "is_sensitive": false
+        },
+        "B5": {
+          "dimension_id": "B5",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 1.2653,
+          "friedman_p": 0.531181,
+          "pct_divergent_gt1": 0.92,
+          "total_variance": 0.2926,
+          "adr_variance": 0.2559,
+          "prompt_variance": 0.0367,
+          "variance_explained_by_prompt": 12.54,
+          "is_sensitive": false
+        },
+        "C1": {
+          "dimension_id": "C1",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 2.0,
+          "friedman_p": 0.367879,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.3642,
+          "adr_variance": 0.3091,
+          "prompt_variance": 0.055,
+          "variance_explained_by_prompt": 15.12,
+          "is_sensitive": false
+        },
+        "C2": {
+          "dimension_id": "C2",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 0.5688,
+          "friedman_p": 0.752463,
+          "pct_divergent_gt1": 0.92,
+          "total_variance": 0.2868,
+          "adr_variance": 0.2094,
+          "prompt_variance": 0.0775,
+          "variance_explained_by_prompt": 27.01,
+          "is_sensitive": false
+        },
+        "C3": {
+          "dimension_id": "C3",
+          "n_adrs": 109,
+          "n_variants": 3,
+          "variant_names": [
+            "full_rubric",
+            "minimal",
+            "reversed_anchors"
+          ],
+          "friedman_chi2": 1.8095,
+          "friedman_p": 0.404638,
+          "pct_divergent_gt1": 0.0,
+          "total_variance": 0.1074,
+          "adr_variance": 0.0645,
+          "prompt_variance": 0.0428,
+          "variance_explained_by_prompt": 39.88,
+          "is_sensitive": false
+        }
+      }
+    }
+  }
+}

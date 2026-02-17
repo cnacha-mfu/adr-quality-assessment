@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+*.egg
+.env
+.venv/
+nohup.out
+logs/
+*.log
+nul
+.claude/
